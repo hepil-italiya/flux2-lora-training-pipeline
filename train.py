@@ -431,7 +431,7 @@ if __name__ == "__main__":
     print("[DATA] Loading dataset...")
     dataset = ImageDataset(
         data_dir=config.DATA_FOLDER, 
-        image_size=(config.IMAGE_HEIGHT, config.IMAGE_WEIGHT)
+        image_size=(config.IMAGE_HEIGHT, config.IMAGE_WIDTH)
     )
     print(f"[DATA] Dataset size: {len(dataset)} samples\n")
 

@@ -24,7 +24,7 @@ class Config:
     NUM_IMAGES_PER_PROMPT = 1  # Fixed for now
     
     IMAGE_HEIGHT = 1024
-    IMAGE_WEIGHT = 1024
+    IMAGE_WIDTH = 1024
     
     # TEXT EMBEDDING
     MAX_SEQUENCE_LENGTH = 512
